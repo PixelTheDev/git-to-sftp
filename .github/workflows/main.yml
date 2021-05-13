@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  - upload:
+   upload:
       - name: Upload build to hosting environment
         uses: Atyn/Simple-SFTP
    # REMEMBER IMPORTANT: u have to set the ssh username, password and host but this file is public unless the entire project is private. YOU WERE ADVISED.
