@@ -14,7 +14,7 @@ on:
 jobs:
    upload:
         name: Upload build to hosting environment
-        uses: Atyn/Simple-SFTP
+        uses: Atyn/simple-sftp-action@0.0.2
    # REMEMBER IMPORTANT: u have to set the ssh username, password and host but this file is public unless the entire project is private. YOU WERE ADVISED.
         with:
           url: sftp://USERNAME:PASSWORD@example.com/remote-directory
